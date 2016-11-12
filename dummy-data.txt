@@ -1,0 +1,22 @@
+#Dummy data for Givers and Recievers. Organized by specific delivery relationships.
+
+#Giver 1:
+McCaffrey's Princeton
+Princeton Shopping Center, 301 N Harrison St, Princeton, NJ 08540
+Food list
+(609) 683-1600
+
+#Reciever 1:
+Mercer Street Friends Food Bank
+824 Silvia St, Ewing Township, NJ 08628
+(609) 406-0503
+
+#Giver 2:
+Lorem Ipsum
+99 Lorem Ipsum Way, Latin, NJ, 00000
+911
+
+#Reciever 2:
+Sample Text
+11 Azure is cool, Pinceton, NJ, 11111
+(908) 300-7889
