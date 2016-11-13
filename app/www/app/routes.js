@@ -13,15 +13,10 @@ define([
     '$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
       // url routes/states
-      $urlRouterProvider.otherwise('login'); // was 'dashboard'
+      $urlRouterProvider.otherwise('dashboard'); // was 'dashboard'
 
       $stateProvider
         // app states
-        .state('login', {
-          url: '/login',
-          templateUrl: 'app/templates/login.html',
-          controller: 'DashboardCtrl'
-        })
         .state('dashboard', {
           url: '/dashboard',
           templateUrl: 'app/templates/dashboard.html',
