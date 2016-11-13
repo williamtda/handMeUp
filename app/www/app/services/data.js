@@ -1,12 +1,16 @@
 /*
 name_giver:
-Address_gover
-phone_giver
+address_giver:
+phone_giver:
 food
-name_reciever
+name_reciever:
+address_reciever:
+phone_reciever:
 
+Abstract Object Used: Order which contains randomized giver and reciever data,
+and recently entered food data
 
-
+lat and lgn data used elswhere
 */
 
 define([
@@ -18,103 +22,49 @@ define([
     function () {
       this.events = [{
         id: 1,
-        name: 'Special Event',
-        city: 'Grevenbroich',
-        district: 'Düsseldorf',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        lat: 51.090209,
-        lng: 6.585863,
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
+        name_giver: 'McCaffrey\'s Princeton',
+        address_giver: 'Princeton Shopping Center, 301 N Harrison St, Princeton, NJ 08540',
+        phone_giver: '6096831600',
+        food: '1 Potato Sack, 4 Lunchables',
+        name_reciever: 'Mercer Street Friends Food Bank',
+        address_reciever: '824 Silvia St, Ewing Township, NJ 08628',
+        phone_reciever: '6094060503'
       }, {
         id: 2,
-        name: 'Special Event',
-        city: 'Straußfurt',
-        district: 'Erfurt',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 51.163893,
-        lng: 10.986114,
-        wheelchairLift: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
+        name_giver: 'Lorem Ipsum',
+        address_giver: '99 Lorem Ipsum Way, Latin, NJ, 00000',
+        phone_giver: '9114491223',
+        food: '100 bottles of beer on the wall',
+        name_reciever: 'Sample Text',
+        address_reciever: '11 Azure is cool, Princeton, NJ, 11111',
+        phone_reciever: '9083007889'
       }, {
         id: 3,
-        name: 'Special Event',
-        city: 'Gebesee',
-        district: 'Erfurt',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        lat: 51.114004,
-        lng: 10.933228,
-        wheelchair: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
+        name_giver: 'Lorem Ipsum',
+        address_giver: '99 Lorem Ipsum Way, Latin, NJ, 00000',
+        phone_giver: '9114491223',
+        food: '100 bottles of beer on the wall',
+        name_reciever: 'Sample Text',
+        address_reciever: '11 Azure is cool, Princeton, NJ, 11111',
+        phone_reciever: '9083007889'
       }, {
         id: 4,
-        name: 'Special Event',
-        city: 'Grevenbroich',
-        district: 'Düsseldorf',
-        street: 'Kurt-Schumacher-Str',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 9:00 AM',
-          'Sunday: 9:00 AM'
-        ],
-        satTrans: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
+        name_giver: 'Lorem Ipsum',
+        address_giver: '99 Lorem Ipsum Way, Latin, NJ, 00000',
+        phone_giver: '9114491223',
+        food: '100 bottles of beer on the wall',
+        name_reciever: 'Sample Text',
+        address_reciever: '11 Azure is cool, Princeton, NJ, 11111',
+        phone_reciever: '9083007889'
       }, {
         id: 5,
-        name: 'Special Event',
-        city: 'Schwabhausen',
-        district: 'Erfurt',
-        street: 'Frühlingsstraße',
-        number: '17',
-        zip: '41515',
-        dates: [
-          'Monday: 10:00 AM',
-          'Sunday: 9:30 AM'
-        ],
-        lat: 48.302842,
-        lng: 11.352900,
-        satTrans: true,
-        wheelchair: true,
-        wheelchairLift: true,
-        contact: {
-          tel: '1234/56789',
-          email: 'test@example.com'
-        },
-        website: 'http://example.com'
+        name_giver: 'Lorem Ipsum',
+        address_giver: '99 Lorem Ipsum Way, Latin, NJ, 00000',
+        phone_giver: '9114491223',
+        food: '100 bottles of beer on the wall',
+        name_reciever: 'Sample Text',
+        address_reciever: '11 Azure is cool, Princeton, NJ, 11111',
+        phone_reciever: '9083007889'
       }, {
         id: 6,
         name: 'Science Event',

@@ -1,50 +1,51 @@
 <ion-view>
-  <ion-nav-title>Details</ion-nav-title>
+  <ion-nav-title>Delivery Details</ion-nav-title>
   <ion-content padding="true">
     <ion-refresher class="spinner-balanced" on-refresh="reload()"></ion-refresher>
     <div class="text-center">
       <ion-spinner class="spinner-balanced" ng-show="loading"></ion-spinner>
     </div>
     <div ng-show="!loading">
-      <h3>{{event.name}}</h3>
-      <h4><b>{{event.city}}</b> <small>({{event.district}})</small></h4>
+      <h3>{{event.name_giver}} to {{event.name_reciever}}</h3>
       <br>
 
-      <div class="text-center">
-        <img ng-src="{{event.image}}" class="image">
-      </div>
-
+      <!-- Addresses -->
       <ion-list>
-        <ion-item class="item-divider item-icon-right"><b>Address</b> <i class="icon ion-location"></i></ion-item>
+        <ion-item class="item-divider item-icon-right"><b>From</b> <i class="icon ion-location"></i></ion-item>
         <ion-item>
-          {{event.street}} {{event.number}}<br>
-          {{event.zip}} {{event.city}}
+          {{event.address_giver}}
         </ion-item>
       </ion-list>
-      <br>
       <ion-list>
-        <ion-item class="item-divider item-icon-right"><b>Dates</b> <i class="icon ion-ios-calendar-outline"></i></ion-item>
-        <ion-item ng-repeat="date in event.dates">
-          {{date}}
+        <ion-item class="item-divider item-icon-right"><b>To</b> <i class="icon ion-location"></i></ion-item>
+        <ion-item>
+          {{event.address_reciever}}
         </ion-item>
       </ion-list>
       <br>
+      <!-- Food List -->
+      <ion-list>
+        <ion-item class="item-divider item-icon-right"><b>Food Items</b> </ion-item>
+        <ion-item class="item-icon-right">
+          {{event.food}}
+        </ion-item>
+      </ion-list>
+      <br>
+      <!-- Contact-->
       <ion-list>
         <ion-item class="item-divider item-icon-right"><b>Contact</b> <i class="icon ion-chatboxes"></i></ion-item>
         <ion-item class="item-icon-right" ng-click="call()">
-          Call us
+          {{event.name_giver}} at {{event.phone_giver}}
           <i class="icon ion-android-call"></i>
         </ion-item>
-        <ion-item class="item-icon-right" ng-click="mail()">
-          Send us an e-mail
-          <i class="icon ion-ios-email"></i>
-        </ion-item>
-        <ion-item class="item-icon-right" ng-click="website()">
-          Visit our homepage
-          <i class="icon ion-ios-home"></i>
+        <ion-item class="item-icon-right" ng-click="call()">
+          {{event.name_reciever}} at {{event.phone_reciever}}
+          <i class="icon ion-android-call"></i>
         </ion-item>
       </ion-list>
     </div>
+    <!-- Submit Button -->
+
   </ion-content>
   <ion-footer-bar class="bar-stable">
     <div class="buttons">
