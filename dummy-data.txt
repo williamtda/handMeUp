@@ -27,3 +27,46 @@ Sample Text
 9083007889
 
 "lat": "70.0000000", "lng": "80.0000000"
+
+
+//givers json document db dump
+
+
+//sample givers documents
+
+{
+ "6096831600":{
+  "storename": "McCaffrey's Princeton",
+  "address": 
+    {
+      "name": "Princeton shopping center",
+      "street": "301 N Harrison St",
+      "city": "Princeton",
+      "state": "NJ",
+      "zip": "08540"
+    }
+  ,
+  "location":{
+    "type":"Point", 
+      "coordinates":[ 40.3645669, -74.7218315 ]}
+},
+"9114491223":{
+  "storename": "Lorem Ipsum",
+  "address": 
+    {
+      "name": "Lorem Ipsum",
+      "street": "99 Lorem Ipsum Way",
+      "city": "Latin",
+      "state": "NJ",
+      "zip": "08540"
+    }
+  ,
+  "location":{
+    "type":"Point", 
+      "coordinates":[ 50.0000000,70.000000 ]} 
+}
+,
+  "isRegistered": true
+}
+
+
