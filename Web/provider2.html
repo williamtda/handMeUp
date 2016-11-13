@@ -139,27 +139,7 @@ height: 50px;}
     <script>
 	
 
-run(){
-var text = '{"item":"food","quantity":"1"}';
 
-var obj = JSON.parse(text);
-
-document.getElementById("line1").innerHTML =
-obj.item + "<br>" +
-obj.quantity + "<br>"
-}
-
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-
-	function addAnother (){
-	
-	document.getElementById("plusOne").innerHTML = '<input type="text" placeholder="Food"><p class="help-block text-danger"></p><input type="number" placeholder="#"><p class="help-block text-danger"></p>'
-
-	}
-	
 	
     </script>
 

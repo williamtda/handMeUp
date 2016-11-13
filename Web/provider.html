@@ -99,7 +99,7 @@ height: 50px;}
 				<input name="num" type="number" placeholder="#" >
 				<p class="help-block text-danger"></p>
 				
-				<input type="submit" style="background-color: blue; left:0%"name="submit" value="SUBMIT" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+				<input type="submit" onsubmit="submit()" style="background-color: blue; left:0%"name="submit" value="SUBMIT" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
 				</div>
 				
 				<div id="plusOne"></div>
@@ -138,34 +138,7 @@ height: 50px;}
 	
 	<script>
 	
-	function sendData(){
-	var food=document.getElementById("food").value;
-    var num= document.getElementById("num").value;
-
-
-$.ajax({
-      type:"GET",
-      url:"http://hostname/projectfolder/webservicename.php?callback=jsondata&web_name="+name+"&web_address="+address+"&web_age="+age,
-      crossDomain:true,
-      dataType:'jsonp',
-      success: function jsondata(data)
-           {
-
-            var parsedata=JSON.parse(JSON.stringify(data));
-            var logindata=parsedata["Status"];
-
-            if("sucess"==logindata)
-            {   
-                alert("success");
-            }
-            else
-            {
-                alert("failed");
-            }
-          }  
-    }); 
 	
-	}
 
 </script>
 	
@@ -173,21 +146,9 @@ $.ajax({
     <script>
 	
 
-	function addAnother (){
-	
-	document.getElementById("plusOne").innerHTML = '<input type="text" placeholder="Food"><p class="help-block text-danger"></p><input type="number" placeholder="#"><p class="help-block text-danger"></p>'
-
-	}
-	
-	function viewHistory(){
-	document.body.style.backgroundImage = "url('images/eggs.jpg')";
-	document.getElementById("line1").innerHTML = 'Your Delivery History:' ;
-	}
-	
-	function newDelivery(){
-	document.body.style.backgroundImage = "url('images/waiter.jpg')";
-	document.getElementById("line1").innerHTML =  'Submit a New Delivery: ' ;
-	}
+function submit() {
+    alert("Your entry has been submitted successfully.");
+}
 	
     </script>
 

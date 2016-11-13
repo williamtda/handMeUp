@@ -110,23 +110,30 @@ body {
   <section id="contact" style="position: relative; left:35%">
 					<div class="content">
 						<div id="form">
-							<form action="" id="contactForm" method="post">
+							<form onsubmit="submit()" action="" id="contactForm" method="post">
 								<span>Organization Name</span>
-								<input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+								<input style="color: black" type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
 								<span>Contact Phone</span>
-								<input type="number" name="phone" class="email" placeholder="Enter number" tabindex=2 />
+								<input style="color: black" type="number" name="phone" class="email" placeholder="Enter number" tabindex=2 />
 								
 								<span>Address</span>
-								<textarea class="message" placeholder="Enter address" tabindex=2></textarea>
+								<textarea style="color: black" class="message" placeholder="Enter address" tabindex=2></textarea>
 
-								<input type="submit" style="background-color: blue; left:30%"name="submit" value="SUBMIT" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" tabindex=5>
-							
+								<input  type="submit" style="background-color: blue; left:30%"name="submit" value="SUBMIT" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" tabindex=5>
+							</form>
 						</div>
 			</section>
 			
  
 
     <script src="js/index.js"></script>
+	<script>
+	
+	function submit() {
+    alert('Thank you! You will be contacted soon with delivery information.');
+}
+	
+	</script>
 
 </body>
 </html>

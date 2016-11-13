@@ -111,18 +111,21 @@ body {
 						<div id="form">
 							<form action="" id="contactForm" method="post">
 								<span>Name</span>
-								<input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+								<input style="color:black" type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
 								<span>Email</span>
-								<input type="text" name="email" class="email" placeholder="Enter your email" tabindex=2 />
+								<input style="color:black" type="text" name="email" class="email" placeholder="Enter your email" tabindex=2 />
 								<span>Message</span>
-								<textarea class="message" placeholder="Enter message" tabindex=4></textarea>
-								<input type="submit" name="submit" value="SEND" class="submit" tabindex=5>
+								<textarea style="color:black" class="message" placeholder="Enter message" tabindex=4></textarea>
+								<input onsubmit="submit()" type="submit" name="submit" value="SEND" class="submit" tabindex=5>
 							</form>
 						</div>
 			</section>
  
 
     <script src="js/index.js"></script>
+	<script>function submit() {
+    alert("Thanks for reaching out!");
+}</script>
 
 </body>
 </html>
