@@ -19,7 +19,11 @@ Lorem Ipsum
 99 Lorem Ipsum Way, Latin, NJ, 00000
 9114491223
 
+{"name": "Lorem Ipsum", "address": "99 Lorem Ipsum Way, Latin, NJ, 00000", "phone": "9114491223", "lat": "50.0000000", "lng": "70.000000"}
+
 #Reciever 2:
 Sample Text
 11 Azure is cool, Pinceton, NJ, 11111
 9083007889
+
+"lat": "70.0000000", "lng": "80.0000000"
