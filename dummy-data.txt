@@ -5,12 +5,14 @@ McCaffrey's Princeton
 Princeton Shopping Center, 301 N Harrison St, Princeton, NJ 08540
 Food list
 6096831600
-{"name": "McCaffrey's Princeton", "address": "Princeton Shopping Center, 301 N Harrison St, Princeton, NJ 08540", "lat": "40.3645669", "lng": "-74.7218315"}
+{"name": "McCaffrey's Princeton", "address": "Princeton Shopping Center, 301 N Harrison St, Princeton, NJ 08540", "phone": "6096831600", "lat": "40.3645669", "lng": "-74.7218315"}
 
 #Reciever 1:
 Mercer Street Friends Food Bank
 824 Silvia St, Ewing Township, NJ 08628
 6094060503
+
+{"name": "Mercer Street Friends Food Bank", "address": "824 Silvia St, Ewing Township, NJ 08628", "phone": "6094060503", "lat": "40.2591138", "lng": "-74.8105126"}
 
 #Giver 2:
 Lorem Ipsum
