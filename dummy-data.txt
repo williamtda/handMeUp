@@ -5,6 +5,7 @@ McCaffrey's Princeton
 Princeton Shopping Center, 301 N Harrison St, Princeton, NJ 08540
 Food list
 6096831600
+{"name": "McCaffrey's Princeton", "address": "Princeton Shopping Center, 301 N Harrison St, Princeton, NJ 08540", "lat": "40.3645669", "lng": "-74.7218315"}
 
 #Reciever 1:
 Mercer Street Friends Food Bank
