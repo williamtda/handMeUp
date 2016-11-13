@@ -1,0 +1,24 @@
+<ion-view>
+  <ion-nav-title>HandMeUp <i class="icon ion-ios-location"></i></ion-nav-title>
+  <ion-content padding="true">
+    <!-- Deliveries List: -->
+    <h3>Open Deliveries:</h3>
+    <ion-list>
+      <!-- Repeated list of delivery data -->
+      <ion-item class="item-icon-right item-avatar item-royal" ui-sref="detail({id: event.id})" ng-repeat="event in events track by event.id | limitTo:limit">
+        <img ng-src="{{event.thumb}}">
+        <h2 class="positive">{{event.name}}</h2>
+        <p>
+          <b>{{event.city}}</b> / District {{event.district}}<br>
+          {{event.street}} {{event.number}}, {{event.zip}} {{event.city}}
+        </p>
+        <i class="icon ion-ios-arrow-right"></i>
+      </ion-item>
+      <ion-item class="text-center item-royal" ng-if="events && !events.length">No events found :(</ion-item>
+    </ion-list>
+    <ion-infinite-scroll
+      ng-if="!events"
+      on-infinite="loadNext()">
+    </ion-infinite-scroll>
+  </ion-content>
+</ion-view>
