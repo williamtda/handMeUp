@@ -1,5 +1,5 @@
 # Hand Me Up
-http://www.handme-up.com
+http://handmeup.azurewebsites.net/
 
 The fight to reduce food wastage and combat world hunger starts with you.
 
