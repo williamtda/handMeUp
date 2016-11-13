@@ -70,3 +70,41 @@ Sample Text
 }
 
 
+// receiver data
+
+
+{
+ "6094060503":{
+  "name": "Mercer Street Friends Food Bank",
+  "address": 
+    {
+      "name": "Mercer Street Friends Food Bank",
+      "street": "824 Silvia St",
+      "city": "Ewing Township",
+      "state": "NJ",
+      "zip": "08628"
+    }
+  ,
+  "location":{
+    "type":"Point", 
+      "coordinates":[ 40.2591138, -74.8105126 ]}
+},
+"9083007889":{
+  "storename": "Food Bankers",
+  "address": 
+    {
+      "name": "Food Bankers",
+      "street": "99 Nauseahall",
+      "city": "Princeton",
+      "state": "NJ",
+      "zip": "08540"
+    }
+  ,
+  "location":{
+    "type":"Point", 
+      "coordinates":[ 70.0000000,80.000000 ]} 
+}
+,
+  "isRegistered": true
+}
+
