@@ -22,47 +22,47 @@ define([
     function () {
       this.events = [{
         id: 1,
-        name_giver: 'McCaffrey\'s Princeton',
-        address_giver: 'Princeton Shopping Center, 301 N Harrison St, Princeton, NJ 08540',
+        name_giver: 'McCaffrey\'s',
+        address_giver: '301 N Harrison St, Princeton, NJ 08540',
         phone_giver: '6096831600',
-        food: '1 Potato Sack, 4 Lunchables',
+        food: '10 Canned Soups, 5 Peanut butter jars, 4 Canned Peaches',
         name_reciever: 'Mercer Street Friends Food Bank',
         address_reciever: '824 Silvia St, Ewing Township, NJ 08628',
         phone_reciever: '6094060503'
       }, {
         id: 2,
         name_giver: 'Lorem Ipsum',
-        address_giver: '99 Lorem Ipsum Way, Latin, NJ, 00000',
+        address_giver: '99 Latin Way, Part of, Italy, 00000',
         phone_giver: '9114491223',
         food: '100 bottles of beer on the wall',
-        name_reciever: 'Sample Text',
-        address_reciever: '11 Azure is cool, Princeton, NJ, 11111',
-        phone_reciever: '9083007889'
+        name_reciever: 'Microsoft',
+        address_reciever: 'One Microsoft Way Redmond, WA 98052',
+        phone_reciever: '1-425-882-8080'
       }, {
         id: 3,
-        name_giver: 'Lorem Ipsum',
+        name_giver: 'We needed',
         address_giver: '99 Lorem Ipsum Way, Latin, NJ, 00000',
         phone_giver: '9114491223',
         food: '100 bottles of beer on the wall',
-        name_reciever: 'Sample Text',
+        name_reciever: 'Much more',
         address_reciever: '11 Azure is cool, Princeton, NJ, 11111',
         phone_reciever: '9083007889'
       }, {
         id: 4,
-        name_giver: 'Lorem Ipsum',
+        name_giver: 'Sample Text',
         address_giver: '99 Lorem Ipsum Way, Latin, NJ, 00000',
         phone_giver: '9114491223',
         food: '100 bottles of beer on the wall',
-        name_reciever: 'Sample Text',
+        name_reciever: 'So Please',
         address_reciever: '11 Azure is cool, Princeton, NJ, 11111',
         phone_reciever: '9083007889'
       }, {
         id: 5,
-        name_giver: 'Lorem Ipsum',
+        name_giver: 'Dont',
         address_giver: '99 Lorem Ipsum Way, Latin, NJ, 00000',
         phone_giver: '9114491223',
         food: '100 bottles of beer on the wall',
-        name_reciever: 'Sample Text',
+        name_reciever: 'Judge us',
         address_reciever: '11 Azure is cool, Princeton, NJ, 11111',
         phone_reciever: '9083007889'
       }, {
